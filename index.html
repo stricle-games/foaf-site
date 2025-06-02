@@ -1,62 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Friends of a Feather</title>
-
-  <!-- Importa a fonte Rubik do Google Fonts -->
+  <!-- Fonte Rubik do Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-
   <style>
-    /* Estilo global da página */
     body {
       margin: 0;
-      padding: 0;
-      background-color: #111; /* Fundo escuro */
-      color: #f5f5f5; /* Texto claro */
-      font-family: 'Rubik', sans-serif; /* Usa a fonte Rubik */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
+      font-family: 'Rubik', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 2rem;
       text-align: center;
     }
-
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
     h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
-
-    p {
-      font-size: 1.5rem;
-      max-width: 600px;
-      line-height: 1.6;
+    p.lead {
+      font-size: 1.3rem;
+      color: #ccc;
     }
-
-    /* Responsivo em telas menores */
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: 1.2rem;
-        padding: 0 1rem;
-      }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #999;
+      font-size: 0.9rem;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #ff6f61;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 1.5rem;
+      transition: background-color 0.3s;
+    }
+    a.button:hover {
+      background-color: #e85c4f;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    .newsletter {
+      margin-top: 2rem;
+      background-color: #1f1f1f;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .newsletter input[type="email"] {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: none;
+      margin-right: 0.5rem;
+    }
+    .newsletter button {
+      padding: 0.75rem 1.25rem;
+      font-size: 1rem;
+      border: none;
+      background-color: #ff6f61;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .newsletter button:hover {
+      background-color: #e85c4f;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Friends of a Feather</h1>
+    <p class="lead">A story-driven RPG about friendship, discovery, and courage.</p>
+  </header>
+  <main>
+    <section>
+      <h2>About the Game</h2>
+      <p><strong>Friends of a Feather</strong> is a narrative RPG focused on boss battles, secrets, and emotional storytelling. You play as Doki, a brave bird helping Kino and his ghostly friend Gosty uncover the past and face the unknown.</p>
+    </section>
 
-  <!-- Título principal do site -->
-  <h1>Friends of a Feather</h1>
+    <section>
+      <h2>Steam Wishlist</h2>
+      <p>Help the project gain visibility by adding it to your wishlist:</p>
+      <a class="button" href="#" target="_blank">View on Steam</a>
+    </section>
 
-  <!-- Descrição do jogo -->
-  <p>
-    A short and strange RPG about a defenseless boy, a bird hero, and a mysterious little girl with immense powers.<br>
-    No random battles. Just boss fights, secrets, and questionable decisions.
-  </p>
+    <section>
+      <h2>Kickstarter Campaign</h2>
+      <p>Support the game and help cover legal and licensing costs:</p>
+      <a class="button" href="#" target="_blank">Support on Kickstarter</a>
+    </section>
 
+    <section class="newsletter">
+      <h2>Subscribe to our Newsletter</h2>
+      <p>Get development updates and early access announcements straight to your inbox.</p>
+      <form>
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Stricle Studio. All rights reserved.
+  </footer>
 </body>
 </html>
