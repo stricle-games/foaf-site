@@ -21,6 +21,12 @@ body {
   flex-direction: column;
 }
 
+.faixa-roxa {
+  background-color: #0e0627; /* ou qualquer cor */
+  color: white;
+  padding: 60px 0;
+  width: 100%;
+}
 /* Container principal */
 .wrapper {
   width: 90%;
@@ -109,7 +115,7 @@ body {
 
 /* Newsletter */
 .newsletter {
-  background: #fff6d5;
+  /*background: #fff6d5;*/
   padding: 40px 20px;
   text-align: center;
   border-radius: 10px;
