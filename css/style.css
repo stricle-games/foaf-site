@@ -12,7 +12,7 @@
 body {
   font-family: 'Freckle Face', cursive;
   background-color: #fefae0;
-  color: #3a3a3a;
+  color: #0e0627;
   line-height: 1.5;
   overflow-x: hidden;
   min-height: 100vh;
@@ -34,13 +34,15 @@ body {
   height: 400px;
   display: flex;
   align-items: flex-end;
+  justify-content: center;   /* horizontal: centro */
   padding: 0 40px 40px;
-  color: white;
+  text-align: center;
+  color: #0e0627;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
 }
 
 .banner .logo {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 /* Intro texto */
