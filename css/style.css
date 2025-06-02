@@ -1,5 +1,6 @@
 /* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Freckle+Face&family=Knewave&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');*/
 
 /* Reset básico */
 * {
@@ -10,7 +11,7 @@
 
 /* Body e fonte */
 body {
-  font-family: 'Freckle Face', cursive;
+  font-family: 'Chewy', cursive;
   background-color: #fefae0;
   color: #0e0627;
   line-height: 1.5;
