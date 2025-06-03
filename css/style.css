@@ -184,8 +184,22 @@ body {
 }
 
 .video-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
+/*
+.video-container {
   position: relative;
-  padding-bottom: 56.25%; /* proporção 16:9 */
+  padding-bottom: 56.25%; 
   height: 0;
   overflow: hidden;
   max-width: 100%;
@@ -200,8 +214,8 @@ body {
 }
 
 .video-wrapper {
-  width: 640px;   /* largura que você quiser */
-  height: 360px;  /* altura proporcional (16:9) */
+  width: 640px;   
+  height: 360px; 
   margin-bottom: 4rem;
 }
 
@@ -212,7 +226,6 @@ body {
 
 .parent-of-video {
   display: flex;
-  justify-content: center; /* centraliza horizontalmente */
-  /* se quiser também centralizar verticalmente */
-  /* align-items: center; */
+  justify-content: center; 
 }
+*/
