@@ -192,8 +192,8 @@ body {
 }
 
 .video-wrapper {
-  width: 320px;   /* largura que você quiser */
-  height: 180px;  /* altura proporcional (16:9) */
+  width: 640px;   /* largura que você quiser */
+  height: 360px;  /* altura proporcional (16:9) */
 }
 
 .video-wrapper iframe {
