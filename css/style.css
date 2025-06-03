@@ -194,7 +194,7 @@ body {
 .video-wrapper {
   width: 640px;   /* largura que você quiser */
   height: 360px;  /* altura proporcional (16:9) */
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 .video-wrapper iframe {
