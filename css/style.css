@@ -52,6 +52,14 @@ body {
   font-size: 5rem;
 }
 
+.watchtrailer {
+  /*background: #fff6d5;*/
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+
 /* Intro texto */
 .intro {
   margin-bottom: 2rem;
