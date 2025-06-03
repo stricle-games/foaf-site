@@ -190,3 +190,13 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.video-wrapper {
+  width: 320px;   /* largura que você quiser */
+  height: 180px;  /* altura proporcional (16:9) */
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
