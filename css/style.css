@@ -38,7 +38,7 @@ body {
 /* Banner topo */
 .banner {
   background: url('../img/banner.jpg') center/cover no-repeat;
-  padding: 2rem 0; /* melhor do que altura fixa */
+  padding: 0 0; /* melhor do que altura fixa */
   overflow: visible;
   display: flex;
   align-items: flex-end;
