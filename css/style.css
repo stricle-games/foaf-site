@@ -38,7 +38,8 @@ body {
 /* Banner topo */
 .banner {
   background: url('../img/banner.jpg') center/cover no-repeat;
-  height: 400px;
+  padding: 2rem 0; /* melhor do que altura fixa */
+  overflow: visible;
   display: flex;
   align-items: flex-end;
   justify-content: center;   /* horizontal: centro */
@@ -46,11 +47,6 @@ body {
   text-align: center;
   color: #0e0627;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-}
-
-.banner {
-  padding: 2rem 0; /* melhor do que altura fixa */
-  overflow: visible;
 }
 
 .logo img {
