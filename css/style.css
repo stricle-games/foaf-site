@@ -102,6 +102,9 @@ body {
   background: #e85b50;
 }
 
+.icon-white {
+  filter: brightness(0) invert(1);
+}
 /* Screenshots */
 .screenshots {
   display: grid;
