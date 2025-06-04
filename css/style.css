@@ -48,8 +48,9 @@ body {
   text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
 }
 
-.banner .logo {
-  font-size: 5rem;
+.banner {
+  padding: 2rem 0; /* melhor do que altura fixa */
+  overflow: visible;
 }
 
 .logo img {
