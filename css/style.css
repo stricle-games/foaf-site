@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;   /* horizontal: centro */
-  padding: 0 0 40px;
+  padding: 0;
   text-align: center;
   color: #0e0627;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
